@@ -50,7 +50,7 @@ aside{
 footer{
     grid-area: footer;
     background-color:dimgray;
-    padding: 20px;
+    padding: 10px;
     text-align: right;
 
 }
