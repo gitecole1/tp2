@@ -17,6 +17,27 @@ body{
     grid-gap: 1px;
 }
 
+/*
+#conteneur2{
+    display :grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "img    context    context"
+    "img    image      context";
+    grid-gap: 1px;
+}
+
+context{
+    grid-area: context;
+    background-color: gold;
+}
+
+image{
+    grid-area: image;
+    background-color: rgb(255, 0, 93);
+}
+*/
+
 main {
     grid-area: main;
     padding: 20px;
@@ -32,6 +53,7 @@ header {
 }
 
 nav{
+    background-color: rgb(25, 109, 112);
     grid-area: nav;
     padding: 10px;
 }
