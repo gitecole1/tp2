@@ -1,0 +1,168 @@
+
+body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 30%;
+    
+
+}
+
+ #conteneur{
+    display :grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+    grid-template-areas:
+    "header  header  header  header"
+    "nav     nav     nav     aside"
+    "main     main   main    aside"
+    "footer  footer  footer  footer";
+    grid-gap: 1px;
+ }
+
+ header{
+    grid-area: header;
+    background-color: black;
+    padding-bottom: 3%;
+ }
+
+ main{
+    grid-area: main;
+   
+ }
+
+ nav{
+    grid-area: nav;
+   padding-left: 2%;
+
+  
+ }
+
+ footer{
+    grid-area: footer;
+    background-color: grey;
+    padding: 1%;
+    text-align: right;
+    
+ }
+
+ aside{
+    grid-area: aside;
+    background-color:aqua;
+    padding-right: 10%;
+    
+ }
+ main{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-areas: 
+    "item1     item2"
+    "item3     item2";
+    gap: 3px;
+}
+
+.item1{
+    grid-area: item1;
+    padding-left: 2%;
+ 
+}
+
+.item2{
+    grid-area: item2;
+    
+    
+}
+.item3{
+    grid-area: item3;
+   
+}
+
+
+img{ 
+        max-width: 100%; 
+      
+} 
+.figure{ 
+        background-color:white; 
+        border: solid black 1px; 
+        float: left;
+        padding-bottom: 15px;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 1%; 
+        margin-left: 11%;  
+        width: fit-content;
+        float: left;
+       
+}
+.darquest1{
+    padding-right: 1%;
+    padding-left: 2%;
+}
+        
+.knapsak{
+    padding-right: 44%;
+}
+
+.wow{
+    padding-right: 2%;
+  padding-left: 1%;
+}
+
+.cegep{
+   
+    padding-left: 8%;
+}
+
+
+.kb2{
+    padding-left: 2%; 
+   
+}
+.tp1{
+    padding-left: 2%;
+}
+
+a:hover{
+    background-color: blue;
+}
+a{
+    color: white;
+    
+}
+.item1{
+    grid-column: 1/span 3;
+   
+    
+   
+}
+.p{
+    margin-top: 0%;
+    
+
+}
+
+.p2{
+    padding-top: 37%;
+    padding-left: 4%;
+}
+.p3{
+    padding-left: 0%;
+    padding-left: 3%;
+}
+.p4{
+    padding-left: 3%;
+}
+h3{
+    padding-left: 2%;
+    margin-top: 4%;
+}
+.pwow1{
+    padding-top: 48%;
+    padding-left: 4%;
+}
+.pwow{
+    padding-left: 5%;
+}
